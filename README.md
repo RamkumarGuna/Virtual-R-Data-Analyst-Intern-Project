@@ -23,7 +23,14 @@ Correlation heatmap
 Donut chart — ESRB rating share
 
 ## week 3
-
+Week 3 — Statistical Analysis & Predictive Modeling
+Still the same dataset. Add hypothesis testing (e.g. t-test comparing sales between two platforms, correlation significance tests) and build one regression or classification model in R — for example, predicting Global_Sales from Critic_Score, Genre, and Platform using lm() or a classification model predicting whether a game is a "hit" (top 10% sales). Include train/test split, model diagnostics (residual plots or confusion matrix), and a performance summary.
 
 
 ## week 4
+Week 4 — Comprehensive Final Report
+This is a consolidation task, not new analysis. Combine Weeks 1-3 into one structured document: Introduction → Data Preparation (from Week 1) → Visualization Highlights (from Week 2) → Modeling Results (from Week 3) → Discussion → Conclusion with lessons learned and future directions. I can merge all three prior reports into this final one once they exist.
+
+
+Each week: GitHub URL (only if technical)
+Since this whole program is R-based technical data analysis, the GitHub URL looks compulsory for your certificate. Create one repo (e.g. R-Internship-Data-Analytics) and add a new folder or branch each week — week1-cleaning, week2-visualization, etc. — rather than four separate repos, so your GitHub profile shows a coherent project history.
