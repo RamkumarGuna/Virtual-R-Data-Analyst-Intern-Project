@@ -26,6 +26,21 @@ Donut chart — ESRB rating share
 Week 3 — Statistical Analysis & Predictive Modeling
 Still the same dataset. Add hypothesis testing (e.g. t-test comparing sales between two platforms, correlation significance tests) and build one regression or classification model in R — for example, predicting Global_Sales from Critic_Score, Genre, and Platform using lm() or a classification model predicting whether a game is a "hit" (top 10% sales). Include train/test split, model diagnostics (residual plots or confusion matrix), and a performance summary.
 
+## Statistical tests:
+
+Shapiro-Wilk normality test → sales are significantly non-normal
+Pearson correlation test → Critic Score vs Sales is significant but weak (r=0.285)
+Welch t-test → PS3 vs Xbox 360 sales, no significant difference (p=0.505)
+One-way ANOVA → Genre does significantly affect sales (p<0.001)
+
+## Regression model: 
+Linear regression predicting Global Sales (R²=0.19), with residual plots, Q-Q plot, and predicted-vs-actual diagnostics — including honest discussion of heteroscedasticity and why the model under-predicts blockbusters.
+
+## Classification model: 
+Logistic regression predicting "Hit" games (top 10%), with confusion matrix, accuracy/precision/recall/F1, and an ROC curve (AUC=0.758) — with a section specifically explaining why 91% accuracy is misleading here due to class imbalance, and how threshold tuning could fix the low recall.
+
+A "Diagnostic Summary & Potential Improvements" section is included per the task's evaluation criteria, covering class imbalance handling, non-linear model alternatives, and missing business variables.
+
 
 ## week 4
 Week 4 — Comprehensive Final Report
